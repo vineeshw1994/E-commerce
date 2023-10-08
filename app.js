@@ -16,7 +16,7 @@ app.use('/productImages', express.static(path.resolve(__dirname, 'productImages'
 app.use('/banner',express.static(path.resolve(__dirname,'banner')))
 
 
-dotenv.config({path:path.join(__dirname,'config/config.env')})
+// dotenv.config({path:path.join(__dirname,'config/config.env')})
 
 app.use(cookieParser());
 
